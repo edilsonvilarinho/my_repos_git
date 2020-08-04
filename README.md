@@ -1,16 +1,27 @@
 # my_repos_git
 
-A new Flutter project.
+Projeto que consome API https://api.github.com/users/{user}/repos
 
-## Getting Started
+ - MVC
+ - Provider
+ 
+# Estrutura do projeto
 
-This project is a starting point for a Flutter application.
+  - Padrão MVC
+    - Funcionalidade 
+      - controller
+      - model
+      - imagens
+      - service
+      - view
+   - Provider como controle de estado concentrado no AppWidget para ser utilizado em qualquer parte do app pelo o comsumer.
 
-A few resources to get you started if this is your first Flutter project:
+# Execução
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![alt text](https://github.com/edilsonvilarinho/my_repos_git/blob/master/images/Android-Emulator-Pixel_3_XL_API_28_5554-04_08_2020-00_57_08.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependências 
+
+ - provider: ^4.3.1
+ - http: ^0.12.2
+ 
